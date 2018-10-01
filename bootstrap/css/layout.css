@@ -1,0 +1,55 @@
+/*@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);*/
+body {
+	font-family: "arial";
+	background: url(../../images/SC_HD_Wallpaper.jpg) fixed;
+	background-size: 100%;
+	color: white;
+	font-size: 12px;
+}
+input {
+	background: transparent;
+}
+hr {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+textarea {
+	background: transparent;
+	resize: none;
+	border: 2px solid #ccc;
+}
+input[type=checkbox] {
+	margin-top: 10px;
+}
+.title {
+	font-family: 'Tahoma';
+	font-size: 30px;
+	font-weight: bold;
+	cursor: default;
+}
+.console {
+	font-family: 'Calibri';
+}
+.btt {
+	background: #000;
+	border: 1px dashed white;
+}
+.button {
+	border: 1px solid #d5bd98;
+	border-right-color: #935e0d;
+	border-bottom-color: #935e0d;
+	background: #ffa822 url(../../images/btn_bg_sprite.gif) left 17.5% repeat-x;
+	color: black;
+}
+textarea.result {
+	width: 80%;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+a,a:hover,a:focus,a:visited,a:active {
+	color: white;
+}
+#mainpage {
+	margin-top: 80px;
+}
